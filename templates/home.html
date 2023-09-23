@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title%} welcom screen {% endblock %}
+{% block content %}
+  <h1>Welcome screens</h1>
+  <h1 class="bottom">
+        Hi {{session.name}}!!</br></br> Welcome to the index page...                
+      </h1>
+      <a href="{{ url_for('logout') }}" class="btn">Logout</a>
+{% endblock %}

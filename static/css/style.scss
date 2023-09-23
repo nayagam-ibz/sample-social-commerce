@@ -1,0 +1,29 @@
+body {
+	font-size: 13px;
+}
+
+a {
+	text-decoration-line: none;
+}
+
+.full_with {
+	width: 100%;
+}
+
+.form-control {
+	background-color: #FFF;
+	border: 1px solid #e5e6e7;
+	border-radius: 3px;
+	padding: 5px 10px;
+	height: 40px;
+	box-shadow: none;
+	font-size: 12px;
+}
+
+.btn {
+	padding: 10px 0px;
+	border: 1px solid var(--theme_color);
+	font-size: 14px;
+	border-radius: 3px;
+	font-weight: 500;
+}
